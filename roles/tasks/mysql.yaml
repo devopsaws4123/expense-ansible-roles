@@ -1,0 +1,7 @@
+- name: comfigure sql server
+  hosts: local
+  connection: local
+  become: yes
+  roles:
+    - role: mysql
+  
